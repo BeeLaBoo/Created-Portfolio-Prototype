@@ -1,0 +1,249 @@
+                                                                            body {
+                                                                                font-family: 'Merriweather Sans', sans-serif;
+                                                                            }
+                                                                            
+                                                                            section {
+                                                                                background-color: whitesmoke;
+                                                                                padding: 80px;
+                                                                            }
+                                                                            
+                                                                            .hero {
+                                                                                background-color: #061624;
+                                                                                height: 100vh;
+                                                                                color: whitesmoke;
+                                                                                font-size: 40px;
+                                                                            }
+                                                                            
+                                                                            footer {
+                                                                                background-color: #061624;
+                                                                                color: whitesmoke;
+                                                                                text-align: center;
+                                                                                font-size: 40px;
+                                                                                padding: 80px;
+                                                                            }
+                                                                            
+                                                                            nav {
+                                                                                display: flex;
+                                                                                justify-content: space-between;
+                                                                                align-items: right;
+                                                                                justify-content: right;
+                                                                                background-color: #061624;
+                                                                                direction: column-reverse;
+                                                                            }
+                                                                            
+                                                                            ul {
+                                                                                display: inline-flex;
+                                                                                list-style-type: none;
+                                                                                space: around: 500px;
+                                                                                font-size: 30px;
+                                                                            }
+                                                                            
+                                                                            ul.show {
+                                                                                display: block;
+                                                                            }
+                                                                            
+                                                                            li {
+                                                                                width: 200px;
+                                                                                text-decoration: none;
+                                                                            }
+                                                                            
+                                                                            h1 {
+                                                                                font-size: 90px;
+                                                                                margin: 0px;
+                                                                                justify-content: space-between;
+                                                                                margin-bottom: 50px;
+                                                                            }
+                                                                            
+                                                                            h2 {
+                                                                                font-size: 60px;
+                                                                                margin-bottom: 50px;
+                                                                            }
+                                                                            
+                                                                            p {
+                                                                                margin: 0;
+                                                                                margin-top: 20px;
+                                                                                font-weight: 300;
+                                                                                font-size: 30px margin-bottom: 50px;
+                                                                            }
+                                                                            
+                                                                            .info-first {
+                                                                                font-size: 30px;
+                                                                                font-weight: 100;
+                                                                                margin-inline-start: 5px;
+                                                                                margin-inline: 10px;
+                                                                                margin-inline-end: 5px;
+                                                                                text-align: center;
+                                                                                padding-inline-start: 10px;
+                                                                                padding-block: 10px;
+                                                                                padding-right: 30px;
+                                                                                align-content: space-around;
+                                                                                justify-content: space-around;
+                                                                            }
+                                                                            
+                                                                            .info-second {
+                                                                                font-size: 30px;
+                                                                                font-weight: 100;
+                                                                                margin-inline: 10px;
+                                                                                text-align: center;
+                                                                                padding-inline-start: 10px;
+                                                                                margin: 100px;
+                                                                            }
+                                                                            
+                                                                            .hero-area {
+                                                                                height: 100%;
+                                                                                justify-content: space-between;
+                                                                                align-items: center;
+                                                                                margin: 30px;
+                                                                                text-align: center;
+                                                                                padding-top: 100px;
+                                                                            }
+                                                                            
+                                                                            .hero-text {
+                                                                                margin-left: 40px;
+                                                                                justify-content: space-between;
+                                                                                align-items: center;
+                                                                                text-align: center;
+                                                                            }
+                                                                            
+                                                                            .button {
+                                                                                width: 170px;
+                                                                                height: 50px;
+                                                                                border-radius: 40px;
+                                                                                background-color: #2d4e69;
+                                                                                text-align: center;
+                                                                                font-size: 30px;
+                                                                                margin-top: 100px;
+                                                                                padding-top: 10px;
+                                                                                justify-items: center;
+                                                                            }
+                                                                            
+                                                                            .button:hover {
+                                                                                background-color: #143c5e;
+                                                                            }
+                                                                            
+                                                                            .button:active {
+                                                                                color: black;
+                                                                            }
+                                                                            
+                                                                            .socials {
+                                                                                padding-bottom: 50px;
+                                                                                padding-top: 100px;
+                                                                                margin-bottom: 50px;
+                                                                                justify-content: center;
+                                                                                justify-self: center;
+                                                                            }
+                                                                            
+                                                                            .social {
+                                                                                margin: 20px;
+                                                                                text-decoration: none;
+                                                                                text-decoration-style: none;
+                                                                            }
+                                                                            
+                                                                            @media only screen and (max-width: 1000px) {
+                                                                                .socials {
+                                                                                    display: flex;
+                                                                                    flex-wrap: wrap;
+                                                                                }
+                                                                            }
+                                                                            
+                                                                            .logo {
+                                                                                height: 150px;
+                                                                                margin: 20px;
+                                                                                display: flex;
+                                                                            }
+                                                                            
+                                                                            .sub-section {
+                                                                                display: flex;
+                                                                                justify-content: space-around;
+                                                                                padding: 80px;
+                                                                                background-color: whitesmoke;
+                                                                                text-align: center
+                                                                            }
+                                                                            
+                                                                            .sub-section-alternative {
+                                                                                display: flex;
+                                                                                flex-direction: column;
+                                                                                text-align: center;
+                                                                                background-color: whitesmoke;
+                                                                                padding: 80px;
+                                                                            }
+                                                                            
+                                                                            .headshot {
+                                                                                width: 300px;
+                                                                                height: 400px;
+                                                                            }
+                                                                            
+                                                                            .headshot-container {
+                                                                                display: flex;
+                                                                                align-items: center;
+                                                                            }
+                                                                            
+                                                                            .project-card {
+                                                                                width: 400px;
+                                                                                height: 500px;
+                                                                                box-shadow: 5px 5px 20px grey;
+                                                                                margin: 10px;
+                                                                            }
+                                                                            
+                                                                            .project-container {
+                                                                                display: flex;
+                                                                                justify-items: column;
+                                                                            }
+                                                                            
+                                                                            @media only screen and (max-width: 1000px) {
+                                                                                .project-container {
+                                                                                    display: flex;
+                                                                                    flex-wrap: wrap;
+                                                                                }
+                                                                            }
+                                                                            
+                                                                            .subtext {
+                                                                                font: size 15px;
+                                                                                font-weight: 300;
+                                                                            }
+                                                                            
+                                                                            .project-image {
+                                                                                width: 350px;
+                                                                                margin-top: 25px;
+                                                                                border-radius: 550px;
+                                                                            }
+                                                                            
+                                                                            hr {
+                                                                                margin-left: 20px;
+                                                                                margin-right: 20px;
+                                                                            }
+                                                                            
+                                                                            .project-link {
+                                                                                text-decoration: none;
+                                                                                color: #075594;
+                                                                                font-size: 15px;
+                                                                            }
+                                                                            
+                                                                            a {
+                                                                                text-decoration: none;
+                                                                                color: #7cafd9;
+                                                                            }
+                                                                            
+                                                                            .hamburger {
+                                                                                display: block;
+                                                                            }
+                                                                            
+                                                                            .hamburger:focus {
+                                                                                outline: none;
+                                                                            }
+                                                                            
+                                                                            @media only screen and (max-width:1000px) {
+                                                                                .hamburger {
+                                                                                    display: block;
+                                                                                    border: 0px;
+                                                                                    color: #061624;
+                                                                                    font-size: 10px;
+                                                                                }
+                                                                            }
+                                                                            
+                                                                            @media only screen and (max-width: 1000px) {
+                                                                                #nav-list {
+                                                                                    display: flex;
+                                                                                    flex-wrap: wrap;
+                                                                                }
+                                                                            }
